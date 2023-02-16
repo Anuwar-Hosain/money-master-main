@@ -25,7 +25,7 @@
                 class="input-1"
                 type="number"
                 name=""
-                id=""
+                id="income"
                 placeholder="Income"
               />
             </div>
@@ -37,7 +37,7 @@
                 class="input-1"
                 type="number"
                 name=""
-                id=""
+                id="food"
                 placeholder="Food"
               />
             </div>
@@ -47,7 +47,7 @@
                 class="input-1"
                 type="number"
                 name=""
-                id=""
+                id="rent"
                 placeholder="Rent"
               />
             </div>
@@ -57,16 +57,16 @@
                 class="input-1"
                 type="number"
                 name=""
-                id=""
+                id="clothe"
                 placeholder="Clothes"
               />
             </div>
             <div class="row-1">
-              <button class="btn">Calculate</button>
+              <button id="calculate-btn" class="btn">Calculate</button>
             </div>
             <div class="row-1">
-              <h3>Total Expenses: 5500</h3>
-              <h3>Balance: 4500</h3>
+              <h3>Total Expenses: <samp id="sum-balance">000</samp></h3>
+              <h3>Balance: <samp id="total-balance">000</samp></h3>
             </div>
             <div class="row-1">
               <label for="">Save:</label>
@@ -74,19 +74,21 @@
                 class="input-2"
                 type="number"
                 name=""
-                id=""
+                id="save"
                 placeholder="Save"
               />
               <samp>%</samp>
-              <button class="btn">Save</button>
+              <button id="save-btn" class="btn">Save</button>
             </div>
             <div class="row-1">
-              <h3>Saving Amount: 2000</h3>
-              <h3>Remaining Balance: 2500</h3>
+              <h3>Saving Amount: <samp id="save-amount">000</samp></h3>
+              <h3>Remaining Balance: <samp id="remaining-amount">000</samp></h3>
             </div>
           </div>
         </div>
       </section>
     </main>
+    <script src="js/utilityes.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>

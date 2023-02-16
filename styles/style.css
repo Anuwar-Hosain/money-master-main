@@ -11,7 +11,7 @@
   margin: 0 auto;
 }
 .header {
-  height: 10vh;
+  /* height: 10vh; */
 }
 .header-main {
   text-align: center;
@@ -22,7 +22,7 @@
   font-size: 48px;
 }
 .main {
-  height: 90vh;
+  /* height: 90vh; */
 }
 .all {
   display: flex;
