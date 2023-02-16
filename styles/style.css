@@ -88,3 +88,7 @@ h3 {
   margin-left: 20px;
   width: 30%;
 }
+.p {
+  color: red;
+  /* display: none; */
+}
